@@ -1,0 +1,16 @@
+Nicolas Gil Quijano
+
+Escribe al menos 300 palabras explicando los tipos de aprendizaje en Ml.
+
+De acuerdo al hallazgo que queremos llegar con los datos y poder a llegar a predecir diferentes características de los datos, encontramos la clasificación de los algoritmos de acuerdo a los tipos de aprendizaje. Los más conocidos encontramos dos tipos de aprendizaje: el supervisado y el no supervisado. 
+Aprendizaje Supervisado: Es importante el tema de los input (datos) al sistema, ya que deben estar clasificados. Introducimos el tema de datos de entrenamiento que por lo general corresponden al 30% de todos los datos con el fin de realizar ajustes al modelo global. Cuando se realizan las predicciones los output del sistema es una etiqueta esperada de acuerdo a la clasificación realizada para ingresarlos al sistema. Por ejemplo cuando se predice una variable Y puede resultar cualitativa y cuantitativamente por regresión lineal. 
+Aprendizaje No Supervisado: En este tipo de aprendizaje de lo contrario al anterior, los datos de salida no están clasificados, lo que se traduce en que la predicción que se realiza va tener en cuenta solo la clasificación de los input del sistema. Aquí se introduce el tema de los cluster que es como el sistema organizará la información para su salida. Los cluster lo que realiza es agrupar los datos de acuerdo a sus características finales.
+Adicional a los anteriores tipos de aprendizaje encontramos tres: 
+Aprendizaje por Refuerzo: Este tipo de aprendizaje tiene el input de los datos sin clasificación con el ouput (datos) organizados. Se realiza a prueba y error y lo que resulta es acción y reacción por ejemplo cuando queremos predecir un cara y sello de una moneda. 
+Aprendizaje Semisupervisado: Este Aprendizaje combina el aprendizaje supervisado y no supervisado, teniendo en la predicción los datos clasificados y no clasificados. 
+Aprendizaje multiarea: Este tipo de aprendizaje usa conocimiento anteriormente realizados, para poderse enfrentar a problema parecidos. 
+Bibliografía :
+http://www.pythondiario.com/2017/12/introduccion-al-machine-learning-3.html
+http://www.sepln.org/revistaSEPLN/revista/35/48.pdf
+https://medium.com/soldai/tipos-de-aprendizaje-autom%C3%A1tico-6413e3c615e2
+http://machinelearningparatodos.com/tipos-de-aprendizaje-automatico/
