@@ -1,19 +1,33 @@
-MaestrÌa en Inteligencia AnalÌtica para la Toma de Decisiones
-Departamento de IngenierÌa Industrial
+Maestr√≠a en Inteligencia Anal√≠tica para la Toma de Decisiones
+Departamento de Ingenier√≠a Industrial
 Curso: Mineria de datos 
 Ejercicio 5
-Estudiantes: Nicol·s David Gil 
+Estudiante: Nicol√°s David Gil 
 
 
-Arboles de decisiÛn
-Los arboles de decisiÛn son un modelo de clasificaciÛn autom·tica y es una herramienta aplicada para la toma de decisiones. Su construcciÛn se realiza mediante algoritmos en cual lo que permite es realizar clasificaciÛn y a la vez regresiÛn de todas las variables que contenga el sistema. Estas variables puedes ser continuas o discretas. 
-Esta herramienta es de aprendizaje supervisado y se realiza por mÈtodo de clasificaciÛn. Se dice que es ·rbol de decisiÛn por su apariencia final, lo que hace es empezar a ìramificarî la condiciÛn inicial, de cada no se abren dos estructuras, una hacia el lado derecho y otra hacia el lado izquierdo; esto se conoce como los nodos de decisiÛn y de respuesta. Para saber cu·l es la mejor manera de seleccionar los nodos, se habla de entropÌa; que mide el grado de homogeneidad en el conjunto de valores, que corresponde al target que se quiere predecir.  
-Para revisar hasta donde se debe ìramificarî el ·rbol de decisiÛn se realiza mediante evaluaciones para mirar donde empieza a estandarizar el resultado, por ejemplo los errores cuadr·ticos medios. 
-Con lo anterior lo que se busca es obtener la mejor clasificaciÛn de las variables que tenemos para decidir cu·l  es el mejor camino a tomar. 
-Otro termino importante es el sobreajuste en los aboles de decisiÛn (Overfitting), lo que genera un resultado no deseado ya que el modelo empieza a sobre entrenarse y har· que el modelo se ajuste tambiÈn con los errores. 
-Los arboles de decisiÛn son muy ˙tiles cuando se tiene claro cu·l es el objetivo de su construcciÛn. Se debe tener en cuenta que las operaciones definidas, las diferentes probabilidades que el modelo puede llegar a tener deben ser cuantificada y el fin debe estar definido bajo el alcance propuesto inicialmente. 
+Arboles de decisi√≥n
+Los arboles de decisi√≥n son un modelo de clasificaci√≥n autom√°tica y es una herramienta aplicada para la toma de decisiones. Su construcci√≥n se realiza mediante algoritmos en cual lo que permite es realizar clasificaci√≥n y a la vez regresi√≥n de todas las variables que contenga el sistema. Estas variables puedes ser continuas o discretas. 
+Esta herramienta es de aprendizaje supervisado y se realiza por m√©todo de clasificaci√≥n. Se dice que es √°rbol de decisi√≥n por su apariencia final, lo que hace es empezar a ‚Äúramificar‚Äù la condici√≥n inicial, de cada no se abren dos estructuras, una hacia el lado derecho y otra hacia el lado izquierdo; esto se conoce como los nodos de decisi√≥n y de respuesta. Para saber cu√°l es la mejor manera de seleccionar los nodos, se habla de entrop√≠a; que mide el grado de homogeneidad en el conjunto de valores, que corresponde al target que se quiere predecir.  
+Para revisar hasta donde se debe ‚Äúramificar‚Äù el √°rbol de decisi√≥n se realiza mediante evaluaciones para mirar donde empieza a estandarizar el resultado, por ejemplo los errores cuadr√°ticos medios. 
+Con lo anterior lo que se busca es obtener la mejor clasificaci√≥n de las variables que tenemos para decidir cu√°l  es el mejor camino a tomar. 
+Otro termino importante es el sobreajuste en los aboles de decisi√≥n (Overfitting), lo que genera un resultado no deseado ya que el modelo empieza a sobre entrenarse y har√° que el modelo se ajuste tambi√©n con los errores. 
+Los arboles de decisi√≥n son muy √∫tiles cuando se tiene claro cu√°l es el objetivo de su construcci√≥n. Se debe tener en cuenta que las operaciones definidas, las diferentes probabilidades que el modelo puede llegar a tener deben ser cuantificada y el fin debe estar definido bajo el alcance propuesto inicialmente. 
+Algoritmo del √Årbol de Decisiones: 
+ID3: Se construye a partir de un conjunto de ejemplos fijos y el √°rbol resulta de realizar la clasificaci√≥n futura. 
+Las medidas utilizadas son: Entropia, efectividad y ganancia de informaci√≥n. 
+C4.5: Se basa en la misma forma de del ID3 pero incluye el ratio de ganancia de informaci√≥n. 
+Tipo de √°rboles: 
+-	Clasificaci√≥n: Se usa por proceso binario de categor√≠as y subcategor√≠as. Se utiliza para probabilidad y estad√≠stica. 
+-	Regresi√≥n: Cuando se tiene varias fuentes de informaci√≥n para determinar un resultado. Este se utiliza para c√°lculos de bienes ra√≠ces. 
+-	De mejora: Minimizar los errores de una variable determinada con anticipaci√≥n. Se usa principalmente en contabilidad y matem√°ticas. 
+-	Bosques de √°rboles de decisi√≥n: Cuando se general varios √°rboles de decisi√≥n y se agrupan entre s√≠ para una √∫nica respuesta. 
+-	Clasificaci√≥n y regresi√≥n: El resultado se genera usando factores dependientes a la variable de estudio. Mayor utilizaci√≥n en ciencia. 
+-	K medidas: Se deben combinar todos los factores diferentes que se han identificado. Se usa principalmente en la gen√©tica. 
+
+
 Referencias:
 https://www.gestiondeoperaciones.net/procesos/arbol-de-decision/
 https://docs.microsoft.com/es-es/sql/analysis-services/data-mining/microsoft-decision-trees-algorithm?view=sql-server-2017
 https://www.cs.us.es/~jalonso/cursos/ra-00/temas/tema-12.pdf
 https://es.coursera.org/lecture/mineria-de-datos-introduccion/ejemplo-arbol-de-decision-iCUqx
+https://www.geniolandia.com/13175310/tipos-de-arboles-de-decision
