@@ -1,0 +1,19 @@
+Maestría en Inteligencia Analítica para la Toma de Decisiones
+Departamento de Ingeniería Industrial
+Curso: Mineria de datos 
+Ejercicio 5
+Estudiantes: Nicolás David Gil 
+
+
+Arboles de decisión
+Los arboles de decisión son un modelo de clasificación automática y es una herramienta aplicada para la toma de decisiones. Su construcción se realiza mediante algoritmos en cual lo que permite es realizar clasificación y a la vez regresión de todas las variables que contenga el sistema. Estas variables puedes ser continuas o discretas. 
+Esta herramienta es de aprendizaje supervisado y se realiza por método de clasificación. Se dice que es árbol de decisión por su apariencia final, lo que hace es empezar a “ramificar” la condición inicial, de cada no se abren dos estructuras, una hacia el lado derecho y otra hacia el lado izquierdo; esto se conoce como los nodos de decisión y de respuesta. Para saber cuál es la mejor manera de seleccionar los nodos, se habla de entropía; que mide el grado de homogeneidad en el conjunto de valores, que corresponde al target que se quiere predecir.  
+Para revisar hasta donde se debe “ramificar” el árbol de decisión se realiza mediante evaluaciones para mirar donde empieza a estandarizar el resultado, por ejemplo los errores cuadráticos medios. 
+Con lo anterior lo que se busca es obtener la mejor clasificación de las variables que tenemos para decidir cuál  es el mejor camino a tomar. 
+Otro termino importante es el sobreajuste en los aboles de decisión (Overfitting), lo que genera un resultado no deseado ya que el modelo empieza a sobre entrenarse y hará que el modelo se ajuste también con los errores. 
+Los arboles de decisión son muy útiles cuando se tiene claro cuál es el objetivo de su construcción. Se debe tener en cuenta que las operaciones definidas, las diferentes probabilidades que el modelo puede llegar a tener deben ser cuantificada y el fin debe estar definido bajo el alcance propuesto inicialmente. 
+Referencias:
+https://www.gestiondeoperaciones.net/procesos/arbol-de-decision/
+https://docs.microsoft.com/es-es/sql/analysis-services/data-mining/microsoft-decision-trees-algorithm?view=sql-server-2017
+https://www.cs.us.es/~jalonso/cursos/ra-00/temas/tema-12.pdf
+https://es.coursera.org/lecture/mineria-de-datos-introduccion/ejemplo-arbol-de-decision-iCUqx
