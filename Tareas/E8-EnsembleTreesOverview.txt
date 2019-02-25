@@ -1,0 +1,23 @@
+Ensemble en Machine Learning 
+El ensemble es una herramienta de gran importancia en Machine Learning, ya que  con este método que combina varios modelos se puede mejorar el rendimiento de los modelos generando mejores resultados. 
+Los que se busca al momento de aplicar este método para predecir es disminuir las varianzas que se logra con el empaquetamiento de la información, disminuir el sesgo o mejorar las predicciones para un aumentar el rendimiento de los modelos propuestos. 
+De igual manera cuando se realiza la combinación de modelos de clasificación se realiza el promedio de las probabilidades pronosticas y cuando se realizan modelos de las regresiones toma el promedio de las predicciones. 
+Hay dos formas de realizar los modelos, de forma secuencial o de forma paralela. En la forma secuencial donde se mira cual es la dependencia que existen entre los modelos, mientras que la forma paralela se quiere explorar la independía de las bases. 
+Hay 4 métodos que son:
+* Bagging: Se entrena el modelo en varios paquetes de datos y estos paquetes hace que de una mejor precisión a un único modelo. 
+* Pasting: En este método permite lo mismo que Bagging, pero en este caso no permite muestrear los diferentes entrenamientos para los mismos predictores. 
+* random forests: Es la mejora de árboles simples, este método combina grandes árboles decisión, sobre un conjunto de datos ya probados con anterioridad. 
+* random patches: Se trabaja con el conjunto de árboles de decisión, pero no ha probado con anterioridad. 
+
+Hay tres características que vale la pena distinguir que hace mejor el Ensemble que el estudio individual. 
+- Estadísticamente: Cuando se manejan bases de datos con aprendizaje pequeño, un algoritmo puede dar excelente modelos. 
+- Computacional: Ya que enfoca diferentes algoritmos en diferentes espacios en todos los datos de entrenamiento de la base, ya que la búsqueda por lo general se hace local. 
+- Representativos: Cuando se incluyen varios modelos a la simulación hay una probabilidad mayor en dar con un modelo con mayor cobertura en el espacio de las funciones representables. 
+
+Referencias: 
+https://github.com/albahnsen/PracticalMachineLearningClass/blob/master/notebooks/11-Ensembles_Bagging.ipynb
+https://www.quora.com/What-is-bagging-in-machine-learning
+https://towardsdatascience.com/ensemble-learning-in-machine-learning-getting-started-4ed85eb38e00
+https://quantdare.com/random-forest-vs-simple-tree/
+https://blog.statsbot.co/ensemble-learning-d1dcd548e936
+https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/
