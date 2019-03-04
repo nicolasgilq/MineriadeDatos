@@ -1,0 +1,10 @@
+Clasificadores a nivel mundial. 
+Cuando uno se enfrenta al mundo de datos, hay varias maneras de reforzar y realizar mejor su forma de “moler” estos datos con el fin de obtener resultados de valor agregado para la organización. Cuando evaluamos todas las familias en las que se incluye arboles de decisión, redes neuronales, máquina de soporte vectorial, entre otras. Cuando se utiliza algún modelo de estos, de acuerdo a la necesidad siempre se quiere utilizar el mejor para obtener mejores resultado de las bases de datos en estudio. A continuación menciono unas características para tener en cuenta: 
+- Cuando se trata de elegir el mejor método para aplicar se puede llegar a sesgar los resultados previstos. 
+- Elegir el mejor clasificador de datos hace que al momento de trabajar bases los resultados y el modelo se ajuste más a la información. 
+- La exactitud del tema es de acuerdo a los amplificadores que se presenten.
+- Uno de los mejores métodos es el SVM que incluye 20 de los mejores clasificadores, se considera el “gold standard” por los resultados que permite.
+- Los arboles decisión también son considerados unos de los más asertivos a la hora de revisar el rendimiento de los modelos. 
+- La red neuronal probabilista  también está considerada como uno de los mejores  modelos para la predicción. 
+En términos generales todos los algoritmos presentan unas entradas y unas salidas, cada uno tiene características específicos que permite obtener resultados de clasificación. 
+En conclusión cada método de clasificación, tiene sus ventajas y sus desventajas al momento de utilizarlo. 
