@@ -1,0 +1,8 @@
+Differences between the algorithms implemented
+Gradient Boosting Classifier: Es una técnica de machine learning, utilizado para la solución de problemas de regresión y de clasificación estadística. El resultado de estos algoritmos es un modelo predictivo, en la mayoría de los casos elaborados como arboles de decisión. 
+XGB Classifier: Es una mejora del gradiente en los diferentes lenguajes que se manejan para su programación, cuando se habla de gradiente se refiere a que el modelo cada vez que altera va almacenando el mejor árbol que mejor compensé los errores de los árboles. Lo que quiere decir que va dejando el árbol con menor error. 
+La diferencia es la mejora en el resultado en cuanto a precisión en los modelos para el tratamiento de todos los tamaños de datos. En resumen el Gradient Boosting Classifier calcula los residuos conocidos como los gradientes negativos, esto residuos los ajustes con un árbol de decisión y como criterio de división del árbol para crear los diferentes nodos es el error cuadrático medio.  Mientras que en XGB el tamaño del árbol y la magnitud de los pesos se controlan mediante parámetros de regularización estándar. 
+En términos generales se puede decir que el XGB es una mejora del Gradient Boosting Classifier, ya que mediante el XGB del mejor árbol. De igual manera XGBoost tiene ventajas adicionales: la capacitación es muy rápida y puede ser paralelizada  y distribuida en grupos.
+
+
+
