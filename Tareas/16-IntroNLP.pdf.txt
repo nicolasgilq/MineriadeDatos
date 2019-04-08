@@ -1,0 +1,15 @@
+Whatapp bussines
+Es una API  de difusión de mensajes corporativos y el concepto Click-to-WhatsApp son herramientas destinadas a impulsar la convergencia entre mensajería instantánea e inteligencia artificial.  Hay dos tipos de mensajes que maneja esta API: 
+* Mensaje de plantilla de WhatsApp: plantillas de mensajes: plantillas de mensajes aprobados previamente para alertas salientes, como actualizaciones de entrega y recordatorios de reserva. No se pueden utilizar con fines promocionales y se verifican manualmente. Debe usar un mensaje de plantilla de WhatsApp si han transcurrido más de 24 horas desde la última vez que el usuario le respondió. Cualquier otro tipo de mensaje fallará.
+* Mensaje de sesión de WhatsApp: los mensajes de sesión de WhatsApp son mensajes enviados y recibidos en respuesta a un mensaje iniciado por el usuario a su aplicación. Una sesión de mensajería comienza cuando un usuario envía un mensaje a su aplicación y dura 24 horas desde el último mensaje recibido. Puede esperar a que los usuarios envíen mensajes a su aplicación o puede enviar un mensaje de plantilla (arriba) para invitar al usuario a responder. Vea a continuación algunos ejemplos comunes de cómo invitar a los usuarios a enviar mensajes a su aplicación.
+La api se puede: 
+* configurar webhooks con certificación SSL
+* Usando las ID de WhatsApp podemos enviar mensajes, usar notificaciones y trabajar con grupos
+* Cargar, recuperar o eliminar mensajes y medios de los chats de usuarios y chats de grupo
+* Cómo registrar y configurar los ajustes de su cliente de API de negocio de WhatsApp
+En conslusión: Navegación y descubrimiento: utilice la PNL para comprender el contexto de las entradas de los usuarios y ayudarlos a descubrir productos y servicios relevantes conectando sus API de búsqueda con el Cliente de la API comercial de WhatsApp.
+
+
+Referencias:
+https://planetachatbot.com/whatsapp-lanza-business-api-automatizar-mensajes-para-clientes-9f13776d7765
+https://chatbotslife.com/overview-of-the-whatsapp-business-api-and-how-to-leverage-it-1477029c0be0
